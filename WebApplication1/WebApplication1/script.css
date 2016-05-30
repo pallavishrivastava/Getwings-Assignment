@@ -1,0 +1,38 @@
+﻿body {
+	background-color:black;
+}
+.collapse {
+	display:none;
+}
+.name {
+	font-size:25px;
+	font-family: Arial, Helvetica, sans-serif;
+	cursor:pointer;
+	font-weight:600;
+	color: white;
+}
+.title {
+	font-size:20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:600;
+	color: white;
+}
+.value {
+	font-size:20px;
+	font-family: Arial, Helvetica, sans-serif;
+	display:block;
+    width:700px;
+    word-wrap:break-word;
+	color: white;
+}
+#data {
+  float: left;
+  width: 50%;
+  overflow: hidden;
+}
+#map {
+	width:500px;
+	height:700px;
+    position: fixed;
+	bottom: 0;
+}
